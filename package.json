@@ -1,14 +1,14 @@
 {
     "name": "@nyt/jfrog-client-js",
-    "version": "2.6.5",
-    "description": "JFrog Javascript Client is a javascript library, which wraps some of the REST APIs exposed by JFrog Services's different services.",
+    "version": "1.0.0",
+    "description": "Fork of jfrog-client-js with extra/missing features",
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jfrog/jfrog-client-js"
+        "url": "https://github.com/nytimes-labs/jfrog-client-js"
     },
     "bugs": {
-        "url": "https://github.com/jfrog/jfrog-client-js/issues"
+        "url": "https://github.com/nytimes-labs/jfrog-client-js/issues"
     },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
