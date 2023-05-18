@@ -156,7 +156,7 @@ export interface IHttpConfig {
     timeout?: number;
 }
 
-export type method = 'GET' | 'POST' | 'HEAD';
+export type method = 'GET' | 'POST' | 'HEAD' | 'DELETE';
 export type responseType = 'arraybuffer' | 'blob' | 'document' | 'json' | 'text' | 'stream';
 
 export interface IRequestParams {

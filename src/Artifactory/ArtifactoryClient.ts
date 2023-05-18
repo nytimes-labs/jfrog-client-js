@@ -3,6 +3,7 @@ import { ArtifactoryLogger } from './ArtifactoryLogger';
 import { ArtifactorySystemClient } from './ArtifactorySystemClient';
 import { ArtifactorySearchClient } from './ArtifactorySearchClient';
 import { ArtifactoryDownloadClient } from './ArtifactoryDownloadClient';
+import { ArtifactoryDeleteClient } from './ArtifactoryDeleteClient';
 import { IClientSpecificConfig } from '../../model/ClientSpecificConfig';
 import { ILogger } from '../../model/';
 
@@ -42,5 +43,8 @@ export class ArtifactoryClient {
 
     public download(): ArtifactoryDownloadClient {
         return new ArtifactoryDownloadClient(this.httpClient, this.logger);
+    }
+    public delete(): ArtifactoryDeleteClient {
+        return new ArtifactoryDeleteClient(this.httpClient, this.logger);
     }
 }
