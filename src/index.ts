@@ -1,4 +1,5 @@
 export { ArtifactoryDownloadClient } from './Artifactory/ArtifactoryDownloadClient';
+export { ArtifactoryDeleteClient } from './Artifactory/ArtifactoryDeleteClient';
 export { ArtifactorySearchClient } from './Artifactory/ArtifactorySearchClient';
 export { ArtifactorySystemClient } from './Artifactory/ArtifactorySystemClient';
 export { HttpClient } from './HttpClient';

@@ -2,7 +2,7 @@ import { HttpClient, IRequestParams } from '../HttpClient';
 import { ILogger } from '../../model/';
 
 export class ArtifactoryDeleteClient {
-    constructor(private readonly httpClient: HttpClient, private readonly logger: ILogger) { }
+    constructor(private readonly httpClient: HttpClient, private readonly logger: ILogger) {}
 
     public async deleteArtifact(artifactPath: string): Promise<string> {
         this.logger.debug('Sending delete artifact request...');
